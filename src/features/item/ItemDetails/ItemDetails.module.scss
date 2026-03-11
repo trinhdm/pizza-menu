@@ -1,0 +1,37 @@
+/* stylelint-disable no-empty-source */
+
+.fact {
+	&.calories {
+		grid-area: calories;
+	}
+
+	&.carbs {
+		grid-area: carbs;
+	}
+
+	&.fat {
+		grid-area: fat;
+	}
+
+	&.protein {
+		grid-area: protein;
+	}
+
+	&.sodium {
+		grid-area: sodium;
+	}
+
+	& > div {
+		background: rgb(255 255 255 / 5%);
+		border-radius: 18px;
+		padding: 0.9rem;
+	}
+
+	dt {
+		color: rgb(225 229 240 / 76%);
+	}
+
+	dd {
+		font-weight: 700;
+	}
+}

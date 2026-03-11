@@ -1,0 +1,39 @@
+
+.hero {
+	display: flex;
+    flex-wrap: wrap;
+	height: 100%;
+    max-height: 35vh;
+	min-height: 35vh;
+	overflow: hidden;
+    place-content: center;
+	position: relative;
+}
+
+.content {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	max-width: 700px;
+	row-gap: .75rem;
+	// text-align: center;
+}
+
+.eyebrow {
+	/* color: var(--muted); */
+	font-size: 0.75rem;
+	letter-spacing: .1rem;
+	text-transform: uppercase;
+}
+
+.title {
+	font-size: clamp(2.2rem, 8vw, 5rem);
+	letter-spacing: -0.06rem;
+	line-height: 0.95;
+	margin: 0;
+}
+
+.description {
+	/* color: var(--muted); */
+	max-width: 42rem;
+}

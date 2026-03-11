@@ -1,0 +1,19 @@
+.grid {
+    display: grid;
+}
+
+.grid-areas {
+	grid-template-areas: var(--grid-areas);
+}
+
+.grid-cols {
+	grid-template-columns: var(--grid-cols);
+}
+
+.grid-rows {
+	grid-template-rows: var(--grid-rows);
+}
+
+.grid-gap {
+	gap: var(--grid-gap);
+}
